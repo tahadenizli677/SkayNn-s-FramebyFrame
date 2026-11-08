@@ -20,6 +20,6 @@ if %ERRORLEVEL% neq 0 (
 
 echo.
 echo Derleme basariyla tamamlandi!
-echo Cikti: dist\ArsenalAimbot.exe (Tek parca dosya, tum modeller ve ayarlar icine gomuldu)
+echo Cikti: dist\SkayNnsFramebyFrame.exe (Tek parca dosya, tum modeller ve ayarlar icine gomuldu)
 echo.
 pause

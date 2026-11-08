@@ -1,4 +1,4 @@
-# 🎯 Arsenal Apex Aimbot
+# 🎯 SkayNn's FramebyFrame
 
 Roblox Arsenal için geliştirilmiş yüksek performanslı, yapay zeka (YOLOv8) ve renk algılama (Neon Outline) destekli modern nişan alma asistanı.
 
@@ -28,7 +28,7 @@ Programı sorunsuz bir şekilde kullanmak için aşağıdaki adımları sırası
 ---
 
 ### 2. Programı Başlatma
-1. `ArsenalAimbot.exe` dosyasına sağ tıklayın ve **"Yönetici olarak çalıştır"** (Run as Administrator) seçeneğini seçin. *(Windows'un oyuna fare girdisi göndermesini engellememesi için bu gereklidir).*
+1. `SkayNnsFramebyFrame.exe` dosyasına sağ tıklayın ve **"Yönetici olarak çalıştır"** (Run as Administrator) seçeneğini seçin. *(Windows'un oyuna fare girdisi göndermesini engellememesi için bu gereklidir).*
 2. Programın arayüzü açılacaktır.
 
 ---
@@ -115,4 +115,4 @@ python aimbot.py
 ```bash
 build.bat
 ```
-Çıktı dosyası `dist\ArsenalAimbot.exe` olarak üretilir.
+Çıktı dosyası `dist\SkayNnsFramebyFrame.exe` olarak üretilir.

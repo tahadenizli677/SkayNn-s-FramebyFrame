@@ -966,7 +966,7 @@ def menu(cfg: configparser.ConfigParser) -> None:
     flush_stdin()
     while True:
         print(f"""
-== Arsenal YOLOv8 aimbot ==
+== SkayNn's FramebyFrame ==
  model : {cfg['model']['path']}
  keys  : aim {key_show(cfg['aim']['key'])} hold | toggle {key_show(cfg['aim']['toggle_key'])} | END quits live
  1) start live
@@ -1008,7 +1008,7 @@ def gui(cfg: configparser.ConfigParser) -> None:
     ctk.set_default_color_theme("blue")
 
     root = ctk.CTk()
-    root.title("ARSENAL APEX // VISION ENGINE")
+    root.title("SkayNn's FramebyFrame")
     root.geometry("980x750")
     root.minsize(920, 700)
     root.configure(fg_color="#0a0c10")
@@ -1130,7 +1130,7 @@ def gui(cfg: configparser.ConfigParser) -> None:
 
     brand_frame = ctk.CTkFrame(head, fg_color="transparent")
     brand_frame.pack(side="left", padx=18, pady=10)
-    ctk.CTkLabel(brand_frame, text="ARSENAL // APEX", font=ctk.CTkFont(family="Segoe UI", size=20, weight="bold"),
+    ctk.CTkLabel(brand_frame, text="SkayNn's FramebyFrame", font=ctk.CTkFont(family="Segoe UI", size=20, weight="bold"),
                  text_color="#00f0ff").pack(side="left")
     ctk.CTkLabel(brand_frame, text=" v2.5 PRO", font=ctk.CTkFont(family="Segoe UI", size=11, weight="bold"),
                  text_color="#64748b").pack(side="left", padx=(8, 0), pady=(4, 0))
@@ -1496,7 +1496,7 @@ def gui(cfg: configparser.ConfigParser) -> None:
     log_box = ctk.CTkTextbox(term_frame, fg_color="#07090e", text_color="#38bdf8",
                              font=ctk.CTkFont(family="Consolas", size=11), corner_radius=8, height=95)
     log_box.pack(fill="both", expand=True, padx=12, pady=(0, 8))
-    log_box.insert("end", f"[{time.strftime('%H:%M:%S')}] ARSENAL APEX Vision Engine Initialized.\n")
+    log_box.insert("end", f"[{time.strftime('%H:%M:%S')}] SkayNn's FramebyFrame Initialized.\n")
     log_box.configure(state="disabled")
 
     def drain():

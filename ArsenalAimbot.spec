@@ -45,7 +45,7 @@ exe = EXE(
     a.datas,
     splash.binaries,
     [],
-    name='ArsenalAimbot',
+    name='SkayNnsFramebyFrame',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
