@@ -1,0 +1,6 @@
+onnxruntime
+opencv-python
+numpy
+dxcam
+customtkinter
+pillow

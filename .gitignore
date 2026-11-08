@@ -1,0 +1,27 @@
+# PyInstaller output & builds (GitHub rejects files > 100MB; ArsenalAimbot.exe is ~150MB)
+dist/
+build/
+*.spec.bak
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+aimbot.log
+
+# Raw models and debug weights (>25MB)
+yolov8s.pt
+yolov8s.onnx
+
+# Temporary / diagnostic test files
+debug/
+*.tmp
+
+# Environment / IDE
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
