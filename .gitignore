@@ -17,6 +17,7 @@ yolov8s.onnx
 # Temporary / diagnostic test files
 debug/
 *.tmp
+push_to_github.bat
 
 # Environment / IDE
 .env
